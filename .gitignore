@@ -9,3 +9,6 @@ qSerialTerm.pro.user
 Makefile
 moc_*.cpp
 ui_*.h
+/.README.txt.swp
+/build/.qmake.stash
+/build/moc_predefs.h

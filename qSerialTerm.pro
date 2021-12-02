@@ -18,13 +18,14 @@
 #
 
 QT          +=  core gui
+greaterThan(QT_MAJOR_VERSION, 4): QT += widgets serialport
 
 win32 {
     CONFIG +=  serialport qwt
 }
 
 unix {
-    LIBS +=  -lSerialPort -lqwt
+    LIBS +=  -lQt5SerialPort -lqwt-qt5
     INCLUDEPATH += /usr/include/qwt
 }
 

@@ -19,6 +19,8 @@
 
 #include "messagewidget.h"
 #include "ui_messagewidget.h"
+#include <QRegExpValidator>
+#include <QIntValidator>
 
 MessageWidget::MessageWidget(QWidget *parent) :
   QWidget(parent),
