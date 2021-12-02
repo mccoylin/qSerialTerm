@@ -22,19 +22,29 @@ DEPENDENCIES
 + Qwt library
 + QtSerialPort API
 
+Install library
+ $ sudo apt install -y libqt5serialport5 libqt5serialport5-dev libudev-dev libqwt-qt5-dev
+
 For installation steps, check the wiki at:
 https://github.com/JorgeAparicio/qSerialTerm/wiki
 
 BUILDING
 ========
 
- $ qmake
+ $ mkdir build
+ $ qmake -o build/Makefile
+ $ cd build
  $ make
 
 DEVELOPMENT
 ===========
 
 For further development Qt Creator is recommended.
+
+
+NOTE
+====
+ Change the project to QT5, and build in Ubuntu 20.04
 
 LICENSE
 =======
